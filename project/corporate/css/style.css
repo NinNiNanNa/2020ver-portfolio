@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+/* 공용 스타일/////////////////////////////////////////////////////////////////////////// */
+
+.brando-wrap1170 { width:100%; max-width:1170px; margin:0 auto; }
+.brando-wrap1170 .brando-gap { margin:0 15px; }
+.brando-wrap1170 .brando-gap .container { position:relative; width:100%; }
+
+.brando-wrap { width:100%; }
+.brando-wrap .brando-gap { width:100%; }
+.brando-wrap .brando-gap .container { width:100%; }
+
+.title { text-align:center; }
+.title h2 { font-size:24px; font-weight:600; line-height:125%; color:#2283d4; text-decoration:line-through rgba(34,131,209, .5); }
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+#wrap { width:100%; overflow:hidden; }
+
+#header { z-index:3; position:fixed; top:0; left:0; width:100%; height:75px; border-bottom:1px solid rgba(255,255,255,.15); transition:all .3s; }
+#header.addFixed { height:60px; border-bottom:0; background:rgba(0,0,0, 1); }
+
+#header h1 { float:left; padding:23px 0; }
+#header.addFixed h1 { padding:15.5px 0; }
+#header h1 a { display:inline-block; }
+#header h1 a img { width:100%; }
+
+#header nav { float:right; padding:31.5px 0; }
+#header.addFixed nav { padding:24px 0; }
+#header nav ul {  }
+#header nav ul li { display:inline-block; }
+#header nav ul li > div { padding:0 20px; }
+#header nav ul li > div a { font-size:12px; font-weight:600; font-family:'Montserrat'; color:#fff; transition:all .3s; }
+#header nav ul li > div a:hover { color:#ccc; }
+
+/* 해상도 990px */
+#header .appbar-wrap { display:none; position:absolute; top:30.5px; right:0; width:22px; height:14px; }
+#header.addFixed .appbar-wrap { top:23px; }
+#header .appbar-wrap a { display:block; position:relative; width:100%; height:100%; }
+#header .appbar-wrap a span { display:inline-block; }
+#header .appbar-wrap a span i { position:absolute; right:0; width:100%; height:2px; background:#fff; transition:all .3s; }
+#header .appbar-wrap a span i.bar0 { top:0; }
+#header .appbar-wrap a span i.bar1 { top:50%; margin-top:-1px; }
+#header .appbar-wrap a span i.bar2 { bottom:0; }
+#header .appbar-wrap a.add990 span i.bar0 { top:50%; margin-top:-1px; transform:rotate(135deg); }
+#header .appbar-wrap a.add990 span i.bar1 { opacity:0; }
+#header .appbar-wrap a.add990 span i.bar2 { bottom:50%; margin-bottom:-1px; transform:rotate(-135deg); }
+
+#header .resolution990 { display:none; z-index:2; position:absolute; top:75px; left:0; width:100%; }
+#header.addFixed .resolution990 { top:60px; }
+#header .resolution990 ul { width:100%; padding:7px 15px; background:#000; }
+#header .resolution990 ul li { width:100%; }
+#header .resolution990 ul li a { margin-top:15px; font-size:12px; font-weight:600; font-family:'Montserrat'; line-height:170%; color:#fff; }
+#header .resolution990 ul li:last-child a { margin-bottom:15px; }
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+#main { z-index:1; position:relative; width:100%; }
+
+#main #section1 { position:relative; width:100%; height:969px; background:url(../img/home-classic-corporate-banner.jpg) no-repeat 50% 0 fixed; background-size:cover; }
+#main #section1:before { position:absolute; top:0; left:0; content:''; display:block; width:100%; height:100%; background:rgba(0,0,0, .5); }
+
+#main #section1 .main-title { position:relative; top:27%; left:0; width:100%; text-align:center; }
+#main #section1 .main-title .smallTitle { margin-bottom:2.01754386%; padding:4px 17px; display:inline-block; font-size:13px; font-family:'Montserrat'; font-weight:500; line-height:177%; color:#fff; background:#2283d4; }
+#main #section1 .main-title h2 { font-size:90px; font-weight:700; line-height:100%; color:#fff; }
+#main #section1 .main-title p { margin:2.368421053% 0; font-size:15px; font-family:'Montserrat'; font-weight:300; line-height:147%; color:#ababab; }
+#main #section1 .main-title span { display:inline-block; margin-top:2.01754386%; }
+#main #section1 .main-title span a { padding:10px 22px; transition:all .3s; border:4px solid #fff; display:inline-block; font-size:14px; font-family:'Montserrat'; font-weight:600; line-height:143%; letter-spacing:1px; color:#fff; }
+#main #section1 .main-title span a:hover { color:#000; background:#fff; }
+
+
+
+#main #section2 { width:100%; padding:130px 0; }
+#main #section2 .brando-wrap1170 .brando-gap { margin:0; }
+
+#main #section2 .content { width:100%; }
+#main #section2 .content ul { width:100%; }
+#main #section2 .content ul li { float:left; }
+#main #section2 .content ul li:first-child { width:50%; }
+#main #section2 .content ul li:last-child { width:50%; }
+#main #section2 .content ul li > div { margin:0 15px; }
+#main #section2 .content ul li > div img { width:100%; max-width:585px; }
+#main #section2 .content ul li > div div { padding:0 12%; }
+#main #section2 .content ul li > div div h2 { font-size:24px; font-weight:600; line-height:125%; color:#2283d4; text-decoration:line-through rgba(34,131,209, .5); }
+#main #section2 .content ul li > div div h3 { margin:25px 0; font-size:18px; font-weight:500; line-height:150%; color:#000; }
+#main #section2 .content ul li > div div .bigText { font-size:14px; line-height:172%; }
+#main #section2 .content ul li > div div p { margin-top:10px; font-size:13px; line-height:177%; }
+#main #section2 .content ul li > div div span { display:inline-block; margin-top:25px; }
+#main #section2 .content ul li > div div span a { display:inline-block; transition:all .3s; border:4px solid #000; padding:10px 22px; font-size:14px; font-family:'Montserrat'; font-weight:600; line-height:120%; color:#000; text-transform:uppercase; }
+#main #section2 .content ul li > div div span a:hover { background:#000; color:#fff; }
+
+
+
+#main #section3 { width:100%; }
+#main #section3 .content { width:100%; }
+#main #section3 .content > ul { width:100%; }
+#main #section3 .content > ul > li { float:left; width:50%; height:684px; background:#000; }
+#main #section3 .content > ul > li ul { padding:11%; }
+#main #section3 .content > ul > li ul li { float:left; width:50%; text-align:center; }
+#main #section3 .content > ul > li ul li > div { padding:5%; transition:all .3s; border:6px solid transparent; }
+#main #section3 .content > ul > li ul li:hover > div { border:6px solid #2283d4; }
+#main #section3 .content > ul > li ul li > div i { margin-bottom:15px; font-size:58px; color:#2283d4; }
+#main #section3 .content > ul > li ul li > div h3 { margin-bottom:10px; transition:all .3s; font-size:14px; font-weight:600; line-height:172%; color:#fff; }
+#main #section3 .content > ul > li ul li:hover > div h3 { color:#2283d4; }
+#main #section3 .content > ul > li ul li > div p { width:80%; margin:0 auto; font-size:14px; line-height:172%; }
+#main #section3 .content > ul > li:last-child { background:url(../img/home-classic-corporate-parallax-img01-1.jpg) no-repeat 50% 50%; background-size:cover; }
+
+
+
+#main #section4 { width:100%; padding-top:130px; }
+#main #section4 .title { padding-bottom:2.627430373%; }
+#main #section4 .content { width:100%; }
+/* 포트폴리오 메인버튼 */
+#main #section4 .content .portfolio-nav { width:100%; text-align:center; padding-bottom:3.152916448%; }
+#main #section4 .content .portfolio-nav ul { display:inline-block; }
+#main #section4 .content .portfolio-nav ul li { display:inline-block; margin:0 20px; }
+#main #section4 .content .portfolio-nav ul li a { font-size:13px; font-weight:600; font-family:'Montserrat'; color:#929292; transition:all .3s; }
+#main #section4 .content .portfolio-nav ul li a:hover { color:#000; }
+#main #section4 .content .portfolio-nav ul li a.addportBtn { color:#000; }
+#main #section4 .content .portfolio-nav ul li a span { display:block; width:100%; padding-top:7px; }
+#main #section4 .content .portfolio-nav ul li a span i { display:block; transform:scale(0, 1); transition:transform 0.3s ease-in; width:100%; height:2px; background:#2283d4; }
+#main #section4 .content .portfolio-nav ul li a:hover span i {  color:#000; transform:scale(1, 1); }
+#main #section4 .content .portfolio-nav ul li a:focus span i {  color:#000; transform:scale(1, 1); }
+#main #section4 .content .portfolio-nav ul li a.addportBtn span i { color:#000; transform:scale(1, 1); }
+/* 포트폴리오 이미지 */
+#main #section4 .content > ul { position:relative; width:100%; height:calc(356.8125px*2) }
+#main #section4 .content > ul > li { overflow:hidden; position:absolute; width:25%; height:356.8125px; }
+#main #section4 .content > ul > li:nth-child(1) { top:calc(356.8125px*0); left:calc(25%*0); }
+#main #section4 .content > ul > li:nth-child(2) { top:calc(356.8125px*0); left:calc(25%*1); }
+#main #section4 .content > ul > li:nth-child(3) { top:calc(356.8125px*0); left:calc(25%*2); }
+#main #section4 .content > ul > li:nth-child(4) { top:calc(356.8125px*0); left:calc(25%*3); }
+#main #section4 .content > ul > li:nth-child(5) { top:calc(356.8125px*1); left:calc(25%*0); }
+#main #section4 .content > ul > li:nth-child(6) { top:calc(356.8125px*1); left:calc(25%*1); }
+#main #section4 .content > ul > li:nth-child(7) { top:calc(356.8125px*1); left:calc(25%*2); }
+#main #section4 .content > ul > li:nth-child(8) { top:calc(356.8125px*1); left:calc(25%*3); }
+#main #section4 .content > ul > li > div { width:100%; position:relative; top:0; transition:all 0.3s; overflow:hidden; }
+#main #section4 .content > ul > li:hover > div { top:-90px; }
+#main #section4 .content > ul > li > div .image-wrap { transform:scale(0); width:100%; transition:all 0.4s ease-in; }
+#main #section4 .content > ul > li.addZoom > div .image-wrap { transform:scale(1); }
+#main #section4 .content > ul > li > div .image-wrap a { display:block; cursor:url(../img/icon-zoom.png),auto; background:#ababab; }
+#main #section4 .content > ul > li > div .image-wrap a img { width:100%; transition:all 0.4s ease-in; }
+#main #section4 .content > ul > li > div .image-wrap a img:hover { opacity:.6; }
+#main #section4 .content > ul > li > div .image-caption { width:100%; height:90px; overflow:hidden; background:#fff; }
+#main #section4 .content > ul > li > div .image-caption div { width:100%; }
+#main #section4 .content > ul > li > div .image-caption div a { padding:27.5px 0; display:block; text-transform:uppercase; text-align:center; }
+#main #section4 .content > ul > li > div .image-caption div a strong { display:block; padding-bottom:10px; font-size:14px; font-weight:600; font-family:'Montserrat'; color:#626262; }
+#main #section4 .content > ul > li > div .image-caption div a small { display:block; font-size:11px; color:#626262; font-weight:500; }
+
+
+
+
+#main #section5 { width:100%; padding:130px 0; }
+#main #section5 .brando-wrap1170 .brando-gap { margin:0; }
+#main #section5 .title { padding-bottom:8.547008547%; }
+#main #section5 .content { width:100%; }
+#main #section5 .content > ul { width:100%; }
+#main #section5 .content > ul > li { float:left; }
+#main #section5 .content > ul > li:first-child { width:58.33333333%; }
+#main #section5 .content > ul > li:last-child { width:41.66666667%; }
+#main #section5 .content > ul > li > div { margin:0 15px; }
+#main #section5 .content > ul > li > div img { width:100%; }
+#main #section5 .content > ul > li > div > div {  }
+#main #section5 .content > ul > li > div > div h2 { margin-bottom:25px; font-size:32px; font-weight:700; line-height:119%; color:#000; }
+#main #section5 .content > ul > li > div > div ul {  }
+#main #section5 .content > ul > li > div > div ul li {  }
+#main #section5 .content > ul > li > div > div ul li span { padding:7px 0; display:block; border-bottom:1px solid #e5e5e5; font-size:13px; line-height:177%; }
+#main #section5 .content > ul > li > div > div ul li span:last-child { border-bottom:0; }
+#main #section5 .content > ul > li > div > div ul li span i { margin-right:5px; color:#2283d4; }
+#main #section5 .content > ul > li > div > div > span { display:inline-block; margin-top:25px; }
+#main #section5 .content > ul > li > div > div > span a { display:inline-block; transition:all .3s; border:4px solid #000; padding:10px 22px; font-size:14px; font-family:'Montserrat'; font-weight:600; line-height:120%; color:#000; text-transform:uppercase; }
+#main #section5 .content > ul > li > div > div > span a:hover { background:#000; color:#fff; }
+
+
+
+#main #section6 { position:relative; width:100%; padding:130px 0; background:url(../img/home-classic-corporate-parallax-img02.jpg) no-repeat 50% 50% fixed; background-size:cover; }
+#main #section6:before { position:absolute; top:0; left:0; content:''; display:block; width:100%; height:100%; background:rgba(0,0,0, .5); }
+#main #section6 .content { width:100%; }
+#main #section6 .content ul { width:100%; }
+#main #section6 .content ul li { float:left; width:25%; }
+#main #section6 .content ul li div { padding:15px; transition:all .3s; border:4px solid rgba(255,255,255, 0); text-align:center; }
+#main #section6 .content ul li:hover div { border:4px solid rgba(255,255,255, .3); }
+#main #section6 .content ul li div i { font-size:40px; color:#9a9a9a; }
+#main #section6 .content ul li div h3 { margin-top:15px; font-size:14px; font-weight:600; line-height:171%; color:#fff; }
+#main #section6 .content ul li div span { margin:15px 0; display:inline-block; width:30px; height:4px; background:#2283d4; }
+#main #section6 .content ul li div h4 { width:80%; margin:0 auto; font-size:14px; font-family:'Roboto'; line-height:171%; color:#ababab; }
+
+
+
+#main #section7 { width:100%; padding:130px 0; }
+#main #section7 .brando-wrap1170 .brando-gap { margin:0; }
+#main #section7 .content { width:100%; }
+#main #section7 .content ul { width:100%; }
+#main #section7 .content ul li { float:left; width:25%; }
+#main #section7 .content ul li div { margin:0 15px; border-right:1px solid rgba(0,0,0, .1); text-align:center; }
+#main #section7 .content ul li:last-child div { border-right:0; }
+#main #section7 .content ul li div h2 { font-size:35px; font-weight:600; line-height:66%; color:#000; }
+#main #section7 .content ul li div h5 { margin-top:15px; font-size:11px; font-weight:500; line-height:182%; color:#626262; }
+
+
+
+#main #section8 { width:100%; }
+#main #section8 .content { width:100%; }
+#main #section8 .content > ul { width:100%; }
+#main #section8 .content > ul > li { float:left; height:500px; }
+#main #section8 .content > ul > li:nth-child(1) { width:25%; background:#000; }
+#main #section8 .content > ul > li:nth-child(2) { width:33%; background:url(../img/home-classic-personal-img-03.jpg) no-repeat 50% 50%; background-size:cover; }
+#main #section8 .content > ul > li:nth-child(3) { width:42%; background:#000; }
+#main #section8 .content > ul > li:nth-child(1) > div { padding:28% 21%; }
+#main #section8 .content > ul > li:nth-child(1) > div p { font-size:28px; font-family:'Montserrat'; font-weight:400; line-height:121%; color:#626262; }
+#main #section8 .content > ul > li:nth-child(3) > div { padding:138px 12%; }
+#main #section8 .content > ul > li:nth-child(3) > div ul { width:100%; }
+#main #section8 .content > ul > li:nth-child(3) > div ul li { width:100%; }
+#main #section8 .content > ul > li:nth-child(3) > div ul li span { display:block; width:100%; height:4px; background:#232323; }
+#main #section8 .content > ul > li:nth-child(3) > div ul li span i { display:block; width:0; height:4px; background:#2283d4; }
+#main #section8 .content > ul > li:nth-child(3) > div ul li small { margin:10px 0 25px; display:block; font-size:11px; font-weight:400; line-height:209%; letter-spacing:2px; }
+
+
+
+#main #section9 { width:100%; padding:130px 0; overflow:hidden; }
+#main #section9 .brando-wrap1170 .brando-gap { margin:0; }
+
+#main #section9 .title { padding-bottom:8.547008547%; }
+#main #section9 .content { width:100%; }
+#main #section9 .content ul { width:100%; }
+#main #section9 .content ul li { position:relative; float:left; width:33.33333333%; }
+#main #section9 .content ul li > div { margin:0 15px; text-align:center; }
+#main #section9 .content ul li > div img { width:100%; max-width:120px; border-radius:50%; }
+#main #section9 .content ul li > div p { margin:8% 5.5% 5%; font-size:13px; line-height:170%; letter-spacing:0.26px; color:#828282; }
+#main #section9 .content ul li > div span { margin-bottom:7%; display:block; font-size:11px; font-weight:600; line-height:209%; letter-spacing:2px; color:#000; }
+#main #section9 .content ul li > div i { display:block; font-size:25px; color:#2283d4; }
+
+
+
+#main #section10 { width:100%; padding:130px 0; background:#f6f6f6; overflow:hidden; }
+#main #section10 .brando-wrap1170 .brando-gap { margin:0; }
+
+#main #section10 .title { padding-bottom:8.547008547%; }
+#main #section10 .content { width:100%; }
+#main #section10 .content ul { width:100%; }
+#main #section10 .content ul li { position:relative; float:left; width:33.33333333%; }
+#main #section10 .content ul li > div { margin:15px; }
+#main #section10 .content ul li > div .s10Image { width:100%; }
+#main #section10 .content ul li > div .s10Image a { width:100%; }
+#main #section10 .content ul li > div .s10Image a img { width:100%; transition:all .3s; }
+#main #section10 .content ul li > div .s10Image a:hover img { filter:grayscale(90%); }
+#main #section10 .content ul li > div .s10Text { margin-top:24px; }
+#main #section10 .content ul li > div .s10Text > a { margin-bottom:9px; font-size:15px; font-family:'Montserrat'; font-weight:600; line-height:147%; color:#373737; }
+#main #section10 .content ul li > div .s10Text p { font-size:13px; line-height:177%; }
+#main #section10 .content ul li > div .s10Text .line { margin:22px 0; width:100%; height:1px; background:#ddd; }
+#main #section10 .content ul li > div .s10Text h5 { display:inline-block; }
+#main #section10 .content ul li > div .s10Text h5 a { font-size:11px; font-family:'Montserrat'; font-weight:500; line-height:150%; color:#ababab; }
+#main #section10 .content ul li > div .s10Text span { display:inline-block; font-size:11px; font-family:'Montserrat'; font-weight:500; line-height:150%; color:#ababab; }
+#main #section10 .content ul li > div .s10Text h6 { display:inline-block; }
+#main #section10 .content ul li > div .s10Text h6 a { font-size:11px; font-family:'Montserrat'; font-weight:500; line-height:150%; color:#ababab; }
+
+
+
+
+#main #section11 { width:100%; padding:130px 0; background:#000; }
+
+#main #section11 .title { padding-bottom:8.547008547%; }
+#main #section11 .content { width:100%; }
+#main #section11 .content > ul { width:100%; }
+#main #section11 .content > ul > li:nth-child(1) { width:100%; }
+#main #section11 .content > ul > li:nth-child(1) > ul { width:75%; margin:0 auto; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li { float:left; width:33.33333333%; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li div { margin:0 15px; text-align:center; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li div span { display:inline-block; width:41px; height:41px; margin-bottom:14px; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li div span i { font-size:41px; color:#929292; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li div h3 { font-size:13px; font-weight:500; color:#929292; }
+#main #section11 .content > ul > li:nth-child(1) > ul > li div h4 { font-weight:500; line-height:170%; letter-spacing:1px; color:#929292; margin-bottom:25px; }
+
+#main #section11 .content > ul > li:nth-child(2) { width:85%; margin:0 auto; }
+#main #section11 .content > ul > li:nth-child(2) > div { margin:0 15px; }
+#main #section11 .content > ul > li:nth-child(2) > div > span { display:block; width:100%; height:1px; background:rgba(255,255,255,.3); margin:57px 0; }
+
+#main #section11 .content > ul > li:nth-child(3) { width:82%; margin:0 auto; }
+#main #section11 .content > ul > li:nth-child(3) > div {  }
+#main #section11 .content > ul > li:nth-child(3) > div form {  }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul {  }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li { float:left; width:50%; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li div { margin:0 15px; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:first-child div input[type='text'] { display:block; width:100%; height:51px; margin-bottom:20px; padding:12px 15px; outline:2px solid #313131; border:0; outline-offset:-2px; background:#1a1a1a; transition:all .3s; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:first-child div input[type='text']:focus { outline:2px solid #666666; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:first-child div input[type='text'].addError { outline:2px solid rgba(204,0,0, 1);  }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:first-child div input[type='text']::placeholder { font-family:'Montserrat'; color:#929292; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:last-child div textarea { width:100%; height:122px; margin-bottom:20px; padding:12px 15px; outline:2px solid #313131; border:0; outline-offset:-2px; background:#1a1a1a; transition:all .3s; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:last-child div textarea:focus { outline:2px solid #666666; }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:last-child div textarea.addError { outline:2px solid rgba(204,0,0, 1);  }
+#main #section11 .content > ul > li:nth-child(3) > div form > ul > li:last-child div textarea::placeholder { font-family:'Montserrat'; color:#929292; }
+
+#main #section11 .content > ul > li:nth-child(3) > div > ul { width:100%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li:first-child { float:left; width:50%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li:nth-child(2) { float:left; width:50%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li > div { margin:0 15px; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li:first-child > div p { font-size:11px; line-height:200%; letter-spacing:1px; color:#626262; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li:nth-child(2) > div input[type='submit'] { height:50px; outline:4px solid #666666; border:0; outline-offset:-4px; background:#000; font-size:13px; font-family:'Montserrat'; font-weight:600; transition:all .3s; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li:nth-child(2) > div input[type='submit']:hover { background:#333; color:#fff; }
+/* 실패 메시지 */
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.errors  { display:none; width:100%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.errors.addError  { display:block; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.errors div { width:100%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.errors div strong { display:inline-block; color:#626262; padding:0 15px; outline:1px solid #ffb900; outline-offset:-2px; text-align:center; font-size:13px; line-height:40px; }
+/* 성공 메시지 */ 
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.success  { display:none;  width:100%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.success.addSuccess  { display:block; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.success div { width:100%; }
+#main #section11 .content > ul > li:nth-child(3) > div > ul > li.success div strong { display:inline-block; color:#626262; padding:0 15px; outline:1px solid #00a0d2; outline-offset:-2px; text-align:center; font-size:13px; line-height:40px; }
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+#footer { z-index:2; position:relative; width:100%; }
+#footer .footer-row1 { width:100%; padding:80px 0; text-align:center; }
+#footer .footer-row1 img { width:100%; max-width:156px; }
+#footer .footer-row1 p { margin:11px 0; font-size:11px; font-family:'Montserrat'; font-weight:500; letter-spacing:0.2px; line-height:180%; color:#000; }
+#footer .footer-row1 a { display:inline-block; margin-right:50px; margin-top:40px; }
+#footer .footer-row1 a:last-child { margin-right:0; }
+#footer .footer-row1 a i { font-size:22px; transition:all .3s; }
+#footer .footer-row1 a:hover i { color:#868686; }
+#footer .footer-row2 { width:100%; padding:30px 0; background:#f6f6f6; text-align:center; }
+#footer .footer-row2 span { font-size:11px; letter-spacing:1px; line-height:180%; }
+
+
+
+/* goTop */
+.goTop {z-index: 4; position:fixed; bottom:50px; right:30px; display: block; width:25px; height:25px; }
+.goTop a { opacity:1; transition:all .3s; display: block; background-color: #000; text-align: center; height: 25px; line-height: 25px; }
+.goTop a:hover { opacity:.5; }
+.goTop a i { line-height: 25px; font-size:18px; color:#fff; }
+.goTop a i span { display: block; }
+
+
+
+/* 모달창 == 레이어 팝업창 */
+
+#modal { overflow-y:scroll; z-index: 5; cursor:url(../img/icon-zoom-out.png),auto; display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:#fff; }
+
+#modal .slide-content { position:relative; width:100%; }
+#modal .slide-content .slide-container { position:relative; width:100%; }
+#modal .slide-content .slide-container .slide-view { overflow:hidden; position:relative; width:100%; cursor:url(../img/icon-move-light.png),auto; }
+#modal .slide-content .slide-container .slide-view .slide-wrap { position:relative; left:0; width:5709px; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide { position:relative; float:left; width:1903px; height:550px; background-size:cover; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide:before { content:''; position:absolute; width:100%; height:100%; background:rgba(37,37,37, .7);  }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide0 { background:url(../img/slider-item01.jpg) no-repeat 50% 50%; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide1 { background:url(../img/slider-item02.jpg) no-repeat 50% 50%; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide2 { background:url(../img/slider-item03.jpg) no-repeat 50% 50%; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide .text { position:absolute; top:47%; left:0; width:100%; text-align:center; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide .text p { font-family:'Montserrat'; line-height:64px; color:#fff; text-transform:uppercase; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide .text h2 { font-size:35px; font-weight:700; line-height:37px; color:#fff; text-transform:uppercase; }
+#modal .slide-content .slide-container .slide-view .slide-wrap .slide .text span { display:inline-block; margin:4% 0; width:80px; height:3px; background:#2283d4; }
+/* 페이지버튼 */
+#modal .slide-content .slide-container > ul { z-index:2; position:absolute; top:91%; left:0; width:100%; text-align:center; }
+#modal .slide-content .slide-container > ul > li { display:inline-block; }
+#modal .slide-content .slide-container > ul > li a { display:inline-block; width:30px; height:3px; margin:6px 5px; background:#969695; transition:all .3s; }
+#modal .slide-content .slide-container > ul > li a.addPage { background:#fff; }
+#modal .slide-content .slide-container > ul > li a:hover { background:#fff; }
+/* 상단 닫기버튼 */
+#modal .slide-content .slide-container span.modal-closeBtn-wrap {  display:block; z-index:2; position:fixed; right:0; top:0; width:34px; height:34px; }
+#modal .slide-content .slide-container span.modal-closeBtn-wrap a { position:relative; display:block; width:100%; height:100%; background:#000; }
+#modal .slide-content .slide-container span.modal-closeBtn-wrap a:before { position:absolute; left:0; width:100%; line-height:34px; text-align:center; content:'×'; font-weight:500; font-size:20px; color:#fff; }
+
+#modal .content { position:relative; width:100%; text-align:center; }
+#modal .content .text-wrap { width:38%; margin:0 auto; padding-top:130px; }
+#modal .content .text-wrap h3 { margin-bottom:5%; font-size:20px; font-weight:500; line-height:30px; color:#000; text-transform:uppercase; }
+#modal .content .text-wrap p { line-height:24px; letter-spacing:0.26px; color:#626262; }
+
+#modal .content .image-wrap { width:100%; padding:130px 0; }
+#modal .content .image-wrap ul { width:100%; }
+#modal .content .image-wrap ul li { width:100%; }
+#modal .content .image-wrap ul li div { margin-bottom:15px; }
+#modal .content .image-wrap ul li div img { width:100%; }
+
+#modal .content .last-wrap { width:100%; padding-bottom:130px; }
+#modal .content .last-wrap p { font-size:13px; font-family:'Montserrat'; font-weight:500; letter-spacing:0.26px; line-height:23px; color:#626262; text-transform:uppercase; }
+#modal .content .last-wrap span { margin-top:2%; display:block; }
+#modal .content .last-wrap span a { font-family:'Montserrat'; font-weight:600; letter-spacing:0.26px; color:#000; text-transform:uppercase; padding:13px 22px; background:transparent; border:4px solid #000; }
+#modal .content .last-wrap span a:hover { color:#fff; background:#000; border:4px solid #000; }
+
+/* 하단 닫기버튼 */
+#modal .content span.modal-closeBtn-wrap { display:block; z-index:3; position:absolute; right:0; bottom:0; width:34px; height:34px; }
+#modal .content span.modal-closeBtn-wrap a { position:relative; display:block; width:100%; height:100%; background:#000; }
+#modal .content span.modal-closeBtn-wrap a:before { position:absolute; left:0; width:100%; line-height:34px; text-align:center; content:'×'; font-weight:500; font-size:20px; color:#fff; }

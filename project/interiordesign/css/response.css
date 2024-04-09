@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+@media all and (max-width:1199px){
+	
+	.leadGen-wrap1190 { max-width:970px; }
+	.title > div p { width:70%; }
+	
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap { max-width:970px; }
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap > div .main-title { width:55%; }
+	#main #section1 .main-content .mainSlide-container .s1PrevBtn-wrap { display:none; }
+	#main #section1 .main-content .mainSlide-container .s1NextBtn-wrap { display:none; }
+	
+	#main #section2 .content ul li:first-child > div { padding:0 15px; }
+	
+	#main #section3 .content > ul > li:first-child > div { padding:61.5px 4%; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li { float:none; width:100%; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li > div { margin-bottom:50px; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li:last-child > div { margin-bottom:0; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li > div .s3IconTitle h3 { left:80px; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li > div p { width:100%; }
+	
+	#main #section8 .content .s8Text > div { padding:10%; }
+
+	#main #section9 .title { max-width:970px; }
+	#main #section9 .content .s9Slide-container { max-width:970px; }
+	
+	#main #section10 .content .s10Text { width:60%; }
+	#main #section10 .content .s10Text > div { padding:10% 0; }
+	
+
+	
+}
+
+@media all and (max-width:1134px){
+
+	#main #section3 .content > ul > li:first-child > div { padding:15.5px 4%; }
+
+}
+
+@media all and (max-width:990px){
+	
+	.leadGen-wrap1190 { max-width:750px; }
+	.title > div h2 { font-size:25px; }
+	.title > div p { width:100%; margin:0 auto 43px; }
+	
+	#header .leadGen-wrap1190 { max-width:990px; }
+	#header nav { display:none; }
+	#header .appbar-wrap { display:block; }
+	
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap { max-width:750px; }
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap > div .main-title { width:75%; }
+	
+	#section2 .leadGen-wrap1190 { max-width:750px; }
+	#main #section2 .content ul li:last-child > div { padding:7.15% 15px; }
+	#main #section2 .content ul li > div .s2Text { width:100%; }
+	#main #section2 .content ul li > div .s2Text h2 { font-size:25px; }
+	
+	#main #section3 .content > ul > li { float:none; width:100%; }
+	#main #section3 .content > ul > li:first-child > div { padding:10.15151515% 4%; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li { float:left; width:50%; }
+	#main #section3 .content > ul > li > div .s3Text > div h2 { font-size:30px; }
+	#main #section3 .content > ul > li > div .s3Text > div h4 { font-size:15px; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li > div { margin-bottom:63px; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li:nth-child(3) > div { margin-bottom:0; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li:nth-child(4) > div { margin-bottom:0; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li > div .s3IconTitle h3 { width:205px; top:5px; font-size:16px; }
+	#main #section3 .content > ul > li > div .s3Image { height:600px; }
+	
+	#main #section4 .content ul li { float:left; width:50%; }
+	#main #section4 .content ul li:nth-child(1) > div { padding-bottom:60px; }
+	#main #section4 .content ul li:nth-child(2) > div { padding-bottom:60px; }
+	#main #section4 .content ul li > div .s4Text { padding:35.5px; }
+	
+	#main #section5 .content h3 { display:block; font-size:20px; margin-bottom:5.555555556%; }
+	#main #section5 .content span { display:block; margin-left:0; }
+	
+	#main #section7 .content ul li { width:50%; }
+	#main #section7 .content ul li:nth-child(1) > div { padding-bottom:55px; }
+	#main #section7 .content ul li:nth-child(2) > div { padding-bottom:55px; }
+	
+	#main #section8 .leadGen-wrap1190 { max-width:990px; margin:0; }
+	#main #section8 .leadGen-wrap1190 .leadGen-gap { margin:0 40% 0 0; }
+	#main #section8 .content .s8Text { width:100%; }
+	#main #section8 .content .s8Text > div { padding:8%; }
+	#main #section8 .content .s8Text > div h2 { font-size:25px; }
+	#main #section8 .content .s8Text > div h3 { font-size:20px; }
+	#main #section8 .content .s8Text > div p { font-size:13px; }
+
+	#main #section9 .title { max-width:750px; }
+	#main #section9 .content .s9Slide-container { max-width:750px; }
+	#main #section9 .content .s9Slide-container .s9PrevBtn-wrap { display:none; }
+	#main #section9 .content .s9Slide-container .s9NextBtn-wrap { display:none; }
+	#main #section9 .content .s9pageBtn-wrap990 { display:block; }
+	
+
+	#main #section10 .content .s10Text { width:90%; }
+	#main #section10 .content .s10Text > div { padding:0; }	
+	#main #section10 .content .s10Text > div h2 { font-size:35px; }
+	#main #section10 .content .s10Text > div h3 { font-size:20px; }
+	
+	#main #section12 .title > div h2 { margin-bottom:35px; }
+	#main #section12 .content > ul > li:first-child > div { padding:0; }
+	#main #section12 .content > ul > li:last-child > div { padding-top:9.333333333%; }
+	
+	#footer .footer-content > ul > li:nth-child(1) { width:50%; }
+	#footer .footer-content > ul > li:nth-child(2) { width:50%; }
+	#footer .footer-content > ul > li:nth-child(3) { width:100%; }
+	#footer .footer-content > ul > li > div .footerSns { text-align:center; margin:40px 0 0 0; }
+	#footer .footer-content > ul > li > div .footerSns ul li div { padding-right:60px; }
+	
+}
+
+@media all and (max-width:767px){
+	
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap > div .main-title { margin:auto; text-align:center; }
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap > div .main-title div p { font-size:30px; }
+	
+	#main #section2 { padding:60px 0; }
+	#main #section2 .content ul li { float:none; width:100%; }
+	#main #section2 .content ul li:first-child > div { margin-bottom:10.26666667%; }
+	#main #section2 .content ul li:last-child > div { padding:0 15px; }
+	#main #section2 .content ul li > div .s2Text { text-align:center; }
+	#main #section2 .content ul li > div .s2Text h2 { margin-bottom:5.555555556%; font-size:27px; }
+	#main #section2 .content ul li > div .s2Text p { margin:5.555555556% 0 6.944444444%; }
+	
+	#main #section3 .content > ul > li:first-child > div { padding:60px 4%; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li { float:none; width:100%; }
+	#main #section3 .content > ul > li > div .s3Text > div h2 { font-size:22px; }
+	#main #section3 .content > ul > li > div .s3Text > ul > li:nth-child(3) > div { margin-bottom:63px; }
+	#main #section3 .content > ul > li > div .s3Image { height:400px; }
+	
+	#main #section4 { padding:60px 0; }
+	#main #section4 .content ul li { float:none; width:100%; }
+	#main #section4 .content ul li > div { padding-top:8%; }
+	#main #section4 .content ul li:nth-child(1) > div { padding-bottom:0; }
+	#main #section4 .content ul li:nth-child(2) > div { padding-bottom:0; }
+	#main #section4 .content ul li > div .s4Text { padding:10.69444444%; }
+	
+	#main #section6 { padding-top:60px; }
+	#main #section6 .content ul { margin:0 15px; padding-top:7.822685789%; }
+	#main #section6 .content ul li { float:none; width:100%; }
+	#main #section6 .content ul li > div { margin:0; }
+	
+	#main #section7 { padding:60px 0; }
+	#main #section7 .content ul li { float:none; width:100%; }
+	#main #section7 .content ul li:nth-child(1) > div { padding-bottom:7.333333333%; }
+	#main #section7 .content ul li:nth-child(2) > div { padding-bottom:7.333333333%; }
+	#main #section7 .content ul li:nth-child(3) > div { padding-bottom:7.333333333%; }
+	
+	#main #section8 .leadGen-wrap1190 .leadGen-gap { margin:0; }
+	#main #section8 .content .s8Text > div { padding:10%; }
+	#main #section8 .content .s8Text > div h2 { margin-bottom:5.540798201%; font-size:27px; }
+	#main #section8 .content .s8Text > div h3 { margin-bottom:6.518586119%; font-size:18px; }
+	#main #section8 .content .s8Text > div p { margin-bottom:7.333409384%; }
+	
+	#main #section9 .content .s9pageBtn-wrap990 { display:none; }
+	#main #section9 .content .s9pageBtn-wrap767 { display:block; }
+	
+	#main #section10 { padding:60px 0; }
+	#main #section10 .content .s10Text { width:100%; }
+	#main #section10 .content .s10Text > div h2 { font-size:27px; }
+	#main #section10 .content .s10Text > div h3 { margin:3.055555556% 0; font-size:18px; }
+	
+	#main #section11 { padding:60px 0; }
+	#main #section11 .content ul li { float:none; width:100%; }
+	#main #section11 .content ul li > div { margin:15px; padding-top:6.666666667%; }
+	#main #section11 .content ul li > div .s11Text { margin-top:6.4%; }
+	#main #section11 .content ul li > div .s11Text > a { margin-bottom:2.5%; }
+	#main #section11 .content ul li > div .s11Text .line { margin:3.055555556% 0 5.555555556%; }
+	
+	#main #section12 { padding:60px 0; }
+	#main #section12 .title > div h2 { margin-bottom:8.333333333%; }
+	#main #section12 .content > ul > li:first-child > div ul li { float:none; width:100%; }
+	#main #section12 .content > ul > li:first-child > div ul li div { padding-bottom:7.5%; }
+	#main #section12 .content > ul > li:first-child > div ul li div span { margin-bottom:2.173913043%; }
+	#main #section12 .content > ul > li:last-child > div form ul li { float:none; width:100%; }
+	
+	#footer { padding:40px 0; }
+	#footer .footer-content > ul > li { float:none; }
+	#footer .footer-content > ul > li:nth-child(1) { width:100%; }
+	#footer .footer-content > ul > li:nth-child(2) { width:100%; }
+	#footer .footer-content > ul > li:nth-child(3) { width:100%; }
+	#footer .footer-content > ul > li > div .footerLogo { text-align:center; }
+	#footer .footer-content > ul > li > div address { margin:5.555555556% 0 0 0; }
+	#footer .footer-content > ul > li > div .footerSns { text-align:center; margin:6.944444444% 0 0 0; }
+	
+	#theme { display:none; }
+	#templates { display:none; }
+
+}
+
+@media all and (max-width:570px){
+	
+	#main #section1 .main-content .mainSlide-container .mainSlide-view .mainSlide-wrap .mainSlide .main-title-wrap > div .main-title div p { font-size:20px; }
+	
+}

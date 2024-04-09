@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@media all and (max-width:1386px){
+
+    
+    #main #section1 .content ul li > div .text_wrap a { display:block;}
+    #main #section1 .content ul li > div .text_wrap a.o_sub { margin-left:0; }
+
+}
+
+@media all and (max-width:1200px){
+
+    #main #section1 .content ul li { float:none; width:100%; }
+    #main #section1 .content ul li:last-child { display:none; }
+    #main #section1 .content ul li:first-child > div { padding:0 10%; }
+    #main #section1 .content ul li > div .text_wrap a { display:inline-block;}
+    #main #section1 .content ul li > div .text_wrap a.o_sub { margin-left:2%; }
+
+}
+
+@media all and (max-width:990px){
+
+    #main #section3 .content ul li { float:left; width:50%; }
+    #main #section3 .content ul li div { margin:25px; }
+
+}
+
+@media all and (max-width:960px){
+
+    #main #section2,
+    #main #section3,
+    #main #section4,
+    #footer { padding:50px 0; }
+
+    #main #section2 .content h2 { font-size:20px; margin-bottom:50px; }
+    #main #section2 .content h3 { font-size:22px; text-align:center; padding-bottom:5%; }
+    #main #section2 .content p { font-size:18px; }
+
+    #main #section3 .title { padding-bottom:3%; }
+
+}
+
+@media all and (max-width:920px){
+    
+    #main #section4 .content ul li { float:none; width:100%; }
+    #main #section4 .content ul li:first-child { margin-bottom:30px; }
+
+}
+
+@media all and (max-width:767px){
+
+    #main #section2 .content h2 { font-size:20px; margin-bottom:50px; }
+    #main #section2 .content h3 { font-size:22px; text-align:center; padding-bottom:5%; }
+    #main #section2 .content p { font-size:14px; }
+
+    #main #section3 .content ul li { float:none; width:100%; }
+
+}
+
+@media all and (max-width:519px){
+
+    
+    #main #section1 .content ul li > div .text_wrap a { display:block;}
+    #main #section1 .content ul li > div .text_wrap a.o_sub { margin-left:0; }
+
+}
+
+@media all and (max-width:480px){
+    
+    #main #section4 .content ul li > div span { float:none; width:100%; }
+    #main #section4 .content ul li > div .text { float:none; width:100%; text-align:center; }
+
+}
+
+@media all and (max-width:327px){
+    
+    #main #section1 .content ul li > div .text_wrap .text p { font-size:38px; }
+
+}
